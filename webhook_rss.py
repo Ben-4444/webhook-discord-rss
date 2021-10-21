@@ -47,3 +47,4 @@ for entry in feed.entries:
 # Doc python webhook discord https://gist.github.com/Bilka2/5dd2ca2b6e9f3573e0c2defe5d3031b2
 # GitHub dun code similaire qui marche a moitier pour mes besoins https://github.com/Eskimon/zds-discord-bot-rss/blob/master/discord-rss-webhook.py
 # Bible des flux http://atlasflux.saynete.net/index.htm
+# Twitter RSS https://nitter.net/
