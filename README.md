@@ -6,5 +6,5 @@ Libre a vous de le modifier comme vous le voulez en fonction de ce que vous voul
 Une fois le code fonctionelle vous pouvez le lancer automatiquement toutes les x heures/minutes via crontab par exemple<br>
 
 J'ai fait un serveur discord avec des channels annonces pour heberger tout ça.<br>
-Vous pouvez simplement venir me demander de créer le channel que vous voulez suivre dans votre serveur<br>
+Vous pouvez aussi le rejoindre, me demander de faire un chann si vous voulez faire une veille<br>
 https://discord.gg/gXeWmtUB6E
