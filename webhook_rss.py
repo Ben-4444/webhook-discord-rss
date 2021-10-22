@@ -48,3 +48,4 @@ for entry in feed.entries:
 # GitHub dun code similaire qui marche a moitier pour mes besoins https://github.com/Eskimon/zds-discord-bot-rss/blob/master/discord-rss-webhook.py
 # Bible des flux http://atlasflux.saynete.net/index.htm
 # Twitter RSS https://nitter.net/
+# Youtube RSS https://piped.kavin.rocks/
