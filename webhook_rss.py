@@ -27,7 +27,7 @@ for entry in feed.entries:
 
         # Partie config webhook discord
         data = {}
-        data["content"] = entry.title + "\n" + entry.link + "\n" + entry.updated
+        data["content"] = "**" + entry.title + "**" + "\n" + entry.link + "\n" + "*" + entry.updated + "*"
         # Nom du webhook ! <----------------------- A remplir !
         data["username"] = ""
         # Avatar du webhook ! <----------------------- A remplir !
