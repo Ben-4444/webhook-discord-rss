@@ -1,0 +1,12 @@
+<p><span style="font-size: medium;"><strong>Vous voulez un channel de news sur votre serveur Discord ?</strong></span></p>
+<p><span style="font-size: 14.4px;">Gratuit et illimit&eacute; !</span></p>
+<p>https://discord.gg/gXeWmtUB6E</p>
+<p><span style="font-size: 14.4px;">Choisissez votre channel annonce parmi ceux disponibles, ou demandez en un nouveau et faite suivre le channel pour retrouver toutes les publications sur votre serveur Discord dans le chann que vous aurez cr&eacute;&eacute;e !</span></p>
+<p><span style="font-size: 14.4px;">Il est possible de recuperer les news de tout site / jeu / twitter / youtube / journal / etc ...</span></p>
+<p>_________________________________________</p>
+<p>Vous pouvez aussi heberger vous meme votre code</p>
+<p>Il suffit de mettre tout les fichiers du git dans un repertoire <span style="font-weight: bold;">rss-discord</span>&nbsp;</p>
+<p>Ensuite pour ajouter un nouveaux flux lancez le code <strong>new-feed.py</strong></p>
+<p>Il vous demandera alors les infos necessaire : nom du flux / nom du webhook / url du flux rss / url webhook / url avatar webhook</p>
+<p>Il enregistrera les infos dans la base <strong>db.json</strong>&nbsp;ensuite il suffit de lancer le code <strong>rss-discord.py</strong> et il check la <strong>db.json</strong> et actualise les flux</p>
+<p>Ajouter simplement l'execution du code python&nbsp;<strong style="font-size: 0.9em;">rss-discord.py</strong><span style="font-size: 0.9em;">&nbsp;dans une tache automatique pour qu'il s'execute tout les x temps</span></p>
