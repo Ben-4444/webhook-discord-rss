@@ -1,0 +1,32 @@
+{
+    "AVATAR": {
+        "actu": "https://thumbs.dreamstime.com/b/l-ic-ne-d-actualit%C3%A9s-symbole-de-journal-plat-79860277.jpg",
+        "actu_fr": "https://thumbs.dreamstime.com/b/l-ic-ne-d-actualit%C3%A9s-symbole-de-journal-plat-79860277.jpg",
+        "actu_jeux": "https://www.pngkit.com/png/full/792-7920301_icone-jeu-png-icone-jeux-video-png.png",
+        "bons-plans": "https://img.over-blog-kiwi.com/2/13/56/26/20160909/ob_040ea2_icone-bon-plan.png"
+    },
+    "GUID": {
+        "actu": "/root/rss-discord/GUID/actu.guid",
+        "actu_fr": "/root/rss-discord/GUID/actu_fr.guid",
+        "actu_jeux": "/root/rss-discord/GUID/actu_jeux.guid",
+        "bons-plans": "/root/rss-discord/GUID/bons-plans.guid"
+    },
+    "URL": {
+        "actu": "http://20.188.42.148:8080/i/?a=rss&get=c_6&rid=617192a22d738&user=ben&token=ben-token&hours=168",
+        "actu_fr": "http://20.188.42.148:8080/i/?a=rss&get=c_14&rid=61728738e4202&user=ben&token=ben-token&hours=168",
+        "actu_jeux": "http://20.188.42.148:8080/i/?a=rss&get=c_10&rid=6171bc4dca968&user=ben&token=ben-token&hours=168",
+        "bons-plans": "http://20.188.42.148:8080/i/?a=rss&get=c_3&rid=617195259fdf1&user=ben&token=ben-token&hours=168"
+    },
+    "USERNAME": {
+        "actu": "\ud83d\udccc Actu \ud83d\udccc",
+        "actu_fr": "\ud83d\udccc Act \ud83d\udccc",
+        "actu_jeux": "\ud83c\udfae Actu Jeux \ud83c\udfae",
+        "bons-plans": "\ud83d\udcb2 Les Bons Plans \ud83d\udcb2"
+    },
+    "WEBHOOK": {
+        "actu": "https://discord.com/api/webhooks/900813239296860210/-jnR0pcmMBcSDFieTFaK3z3Oko5NPpiC5_66zWQ_GocxDvzmjAgzBnTW1z0ooJNpdX5t",
+        "actu_fr": "https://discord.com/api/webhooks/901008281378631710/bqM1CaxxzSb_XH-3aFdCLSJAqaDYiAVIktM3bNUsKVKDoqiOF2ZjIiZLnNjWWoEOYJao",
+        "actu_jeux": "https://discord.com/api/webhooks/900824820227407953/8HBEBItBTOKiMdHLX-B-emoNW0tbMdw4-ZOp_DCPOV9bEWF2R7Kfdf6tPXLA6qGTC3a3",
+        "bons-plans": "https://discord.com/api/webhooks/900835137795784745/iDVn2218nxz6P9R0aEm0aAwTMoY2zz9wuKbUFObykcNCU3VQzg6uJX4SOLVU_NrhVhZB"
+    }
+}
