@@ -1,10 +1,10 @@
-<p><span style="font-size: medium;"><strong>Vous voulez un channel de news sur votre serveur Discord ?</strong></span></p>
+<h1><span style="font-size: medium;"><strong>Vous voulez un channel de news sur votre serveur Discord ?</strong></span></h1>
 <p><span style="font-size: 14.4px;">Gratuit et illimit&eacute; !</span></p>
 <p>https://discord.gg/gXeWmtUB6E</p>
 <p><span style="font-size: 14.4px;">Choisissez votre channel annonce parmi ceux disponibles, ou demandez en un nouveau et faite suivre le channel pour retrouver toutes les publications sur votre serveur Discord dans le chann que vous aurez cr&eacute;&eacute;e !</span></p>
 <p><span style="font-size: 14.4px;">Il est possible de recuperer les news de tout site / jeu / twitter / youtube / journal / etc ...</span></p>
 <p>_________________________________________</p>
-<p>Vous pouvez aussi heberger vous meme votre code</p>
+<h2>Vous pouvez aussi heberger vous meme votre code</h2>
 <p>Il suffit de mettre tout les fichiers du git dans un repertoire <span style="font-weight: bold;">rss-discord</span>&nbsp; a la racine de votre /root/</p>
 <p>Et de crée un repertoire /GUID/ dans le repertoire /rss-discord/</p>
 <p>Ensuite pour ajouter un nouveaux flux lancez le code <strong>new-feed.py</strong></p>
