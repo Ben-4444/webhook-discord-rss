@@ -5,7 +5,8 @@
 <p><span style="font-size: 14.4px;">Il est possible de recuperer les news de tout site / jeu / twitter / youtube / journal / etc ...</span></p>
 <p>_________________________________________</p>
 <p>Vous pouvez aussi heberger vous meme votre code</p>
-<p>Il suffit de mettre tout les fichiers du git dans un repertoire <span style="font-weight: bold;">rss-discord</span>&nbsp; a la racine de votre /root/</p> 
+<p>Il suffit de mettre tout les fichiers du git dans un repertoire <span style="font-weight: bold;">rss-discord</span>&nbsp; a la racine de votre /root/</p>
+<p>Et de crée un repertoire /GUID/ dans le repertoire /rss-discord/</p>
 <p>Ensuite pour ajouter un nouveaux flux lancez le code <strong>new-feed.py</strong></p>
 <p>Il vous demandera alors les infos necessaire : nom du flux / nom du webhook / url du flux rss / url webhook / url avatar webhook</p>
 <p>Il enregistrera les infos dans la base <strong>db.json</strong>&nbsp;ensuite il suffit de lancer le code <strong>rss-discord.py</strong> et il check la <strong>db.json</strong> et actualise les flux</p>
