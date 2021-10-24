@@ -29,7 +29,7 @@ def code(URL, WEBHOOK, USERNAME, AVATAR_URL, GUID):
             fichier.close()
             # Partie config webhook discord
             data = {}
-            data["content"] = entry.title + "\n" + entry.link + "\n" + entry.updated
+            data["content"] = "**" + entry.title + "**" + "\n" + entry.link + "\n" + "*" + entry.updated + "*"
             data["username"] = USERNAME
             data["avatar_url"] = AVATAR_URL
             result = requests.post(WEBHOOK, json = data)
