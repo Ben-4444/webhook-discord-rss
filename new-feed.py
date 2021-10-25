@@ -3,22 +3,17 @@
 import json
 
 
-print("Nom du flux :")
-key = input()
+key = input("Nom du flux : ")
 
-print("Nom du webhook :")
-username = input()
+username = input("Nom du webhook :")
 
-print("URL du flux rss :")
-rss_url = input()
+rss_url = input("URL du flux rss :")
 
-print("URL du webhook :")
-url_webhook = input()
+url_webhook = input("URL du webhook :")
 
-print("URL avatar :")
-url_avatar = input()
+url_avatar = input("URL avatar :")
 
-guid ="/root/rss-discord/GUID/" + key + ".guid"
+guid =f"/root/rss-discord/GUID/{key}.guid"
 
 with open("/root/rss-discord/db.json", "r") as json_file:
     DICO = json.load(json_file)
@@ -37,4 +32,3 @@ else :
 
     with open('/root/rss-discord/db.json', 'w') as f:
         f.write(json.dumps(DICO, sort_keys=True, indent=4))
-    f.close()
