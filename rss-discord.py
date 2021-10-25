@@ -29,10 +29,10 @@ def code(URL, WEBHOOK, USERNAME, AVATAR_URL, GUID):
             fichier.close()
             # Partie config webhook discord
             data = {}
-            data["content"] = "**" + entry.title + "**" + "\n" + entry.link + "\n" + "*" + entry.updated + "*"
+            data["content"] = f"**{entry.title}**\n{entry.link}\n*{entry.updated}*"
             data["username"] = USERNAME
             data["avatar_url"] = AVATAR_URL
-            result = requests.post(WEBHOOK, json = data)
+            requests.post(WEBHOOK, json = data)
             time.sleep(1)
         else :
             print("exist")
