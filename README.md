@@ -12,13 +12,18 @@
 <p>Il enregistrera les infos dans la base <strong>db.json</strong>&nbsp;ensuite il suffit de lancer le code <strong>rss-discord.py</strong> et il check la <strong>db.json</strong> et actualise les flux</p>
 <br>
 <p>
-    <code>git clone https://github.com/Karomy404/webhook-discord-rss.git</code><br>
-    <code>mv webhook-discord-rss/ /root/rss-discord</code><br>
-    <code>mkdir /root/rss-discord/GUID</code><br>
-    <code>chmod +x /root/rss-discord/*.py</code><br>
-    <code>python3 /root/rss-discord/console.py</code> pour gerer vos flux<br>
-    <code>python3 /root/rss-discord/rss-discord.py</code> pour executer le code<br>
-  
+    
+    git clone https://github.com/Karomy404/webhook-discord-rss.git
+    mv webhook-discord-rss/ /root/rss-discord
+    mkdir /root/rss-discord/GUID</code>
+    chmod +x /root/rss-discord/*.py
+    python3 /root/rss-discord/console.py #<--- permet de gerer les flux / webhooks
+    
+</p>
+<p>
+    
+    python3 /root/rss-discord/rss-discord.py #<--- permet d'executer le code
+    
 </p>
 <br>
 <p>Ajouter simplement l'execution du code python&nbsp;<strong style="font-size: 0.9em;">rss-discord.py</strong><span style="font-size: 0.9em;">&nbsp;dans une tache automatique pour qu'il s'execute tout les x temps</span></p>
