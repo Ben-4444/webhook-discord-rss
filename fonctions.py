@@ -83,7 +83,7 @@ def alter_feed(key,value,change):
             DICO[value][key] = change
             modif = True
 
-        if modif == True :
+        if modif :
             print(json.dumps(DICO, sort_keys=True, indent=4))
             print("SUCCESS : Le flux a bien été modifié dans le fichier db.json")
             with open('/root/rss-discord/db.json', 'w') as f:
