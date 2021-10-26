@@ -43,11 +43,11 @@ def remove_feed(key,check):
         DICO = json.load(json_file)
 
     if key in DICO['URL'] :
-        del DICO["GUID"][key]
-        del DICO["URL"][key]
-        del DICO["WEBHOOK"][key]
-        del DICO["AVATAR"][key]
-        del DICO["USERNAME"][key]
+        DICO["GUID"].pop(key)
+        DICO["URL"].pop(key)
+        DICO["WEBHOOK"].pop(key)
+        DICO["AVATAR"].pop(key)
+        DICO["USERNAME"].pop(key)
         if check == "y":
             print(json.dumps(DICO, sort_keys=True, indent=4))
             with open('/root/rss-discord/db.json', 'w') as f:
