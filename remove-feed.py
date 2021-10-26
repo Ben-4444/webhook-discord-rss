@@ -22,5 +22,5 @@ if key in DICO['URL'] :
 else :
 
     print(json.dumps(DICO, sort_keys=True, indent=4))
-    print("ERREUR : Le nom du flux (key) existe deja dans le fichier db.json")
+    print(f"ERREUR : Le nom du flux {key} existe deja dans le fichier db.json")
 
