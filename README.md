@@ -12,9 +12,10 @@
 <p>Il enregistrera les infos dans la base <strong>db.json</strong>&nbsp;ensuite il suffit de lancer le code <strong>rss-discord.py</strong> et il check la <strong>db.json</strong> et actualise les flux</p>
 <br>
 <p>
-  <code>git clone https://github.com/Karomy404/webhook-discord-rss.git</code><br>
+    <code>git clone https://github.com/Karomy404/webhook-discord-rss.git</code><br>
     <code>mv webhook-discord-rss/ /root/rss-discord</code><br>
     <code>mkdir /root/rss-discord/GUID</code><br>
+    <code>chmod +x /root/rss-discord/*.py</code>
     <code>python3 /root/rss-discord/new-feed.py</code> pour ajouter un nouveaux flux<br>
     <code>python3 /root/rss-discord/rss-discord.py</code> pour executer le code<br>
   
