@@ -16,7 +16,7 @@
     <code>mv webhook-discord-rss/ /root/rss-discord</code><br>
     <code>mkdir /root/rss-discord/GUID</code><br>
     <code>chmod +x /root/rss-discord/*.py</code>
-    <code>python3 /root/rss-discord/new-feed.py</code> pour ajouter un nouveaux flux<br>
+    <code>python3 /root/rss-discord/console.py</code> pour gerer vos flux<br>
     <code>python3 /root/rss-discord/rss-discord.py</code> pour executer le code<br>
   
 </p>
