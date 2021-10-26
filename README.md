@@ -7,8 +7,9 @@
 <h2>Vous pouvez aussi heberger vous meme le code</h2>
 <p>Il suffit de mettre tout les fichiers du git dans un repertoire <span style="font-weight: bold;">rss-discord</span>&nbsp; a la racine de votre /root/</p>
 <p>Et de crée un repertoire /GUID/ dans le repertoire /rss-discord/</p>
-<p>Ensuite pour ajouter un nouveaux flux lancez le code <strong>new-feed.py</strong></p>
-<p>Il vous demandera alors les infos necessaire : nom du flux / nom du webhook / url du flux rss / url webhook / url avatar webhook</p>
+<p>Ensuite pour gerer les flux et les webhooks, il suffit d'executer le code console.py</p>
+<p>A partir de la console, vous pouvez afficher la base de vos flux, les ajouter, les supprimer, ou les modifier</p>
+<p>Si vous en ajoutez un, il vous demandera alors les infos necessaire : nom du flux / nom du webhook / url du flux rss / url webhook / url avatar webhook</p>
 <p>Il enregistrera les infos dans la base <strong>db.json</strong>&nbsp;ensuite il suffit de lancer le code <strong>rss-discord.py</strong> et il check la <strong>db.json</strong> et actualise les flux</p>
 <p>Copié le premier bloc ci dessous afin d'initialiser et configurer les flux RSS et les Webhooks</p>
 <p>
