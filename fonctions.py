@@ -66,19 +66,19 @@ def alter_feed(key,value,change):
 
     if key in DICO['URL'] :
 
-        if value == "URL" or value == "url":
+        if value.lower() == "url":
             value = "URL"
             DICO[value][key] = change
             modif = True
-        if value == "WEBHOOK" or value == "webhook":
+        if value.lower() == "webhook":
             value = "WEBHOOK"
             DICO[value][key] = change
             modif = True
-        if value == "USERNAME" or value == "username":
+        if value.lower() == "username":
             value = "USERNAME"
             DICO[value][key] = change
             modif = True
-        if value == "AVATAR" or value == "avatar":
+        if value.lower() == "avatar":
             value = "AVATAR"
             DICO[value][key] = change
             modif = True
