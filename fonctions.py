@@ -36,7 +36,7 @@ def new_feed(key,username,rss_url,url_webhook,url_avatar):
         with open('/root/rss-discord/db.json', 'w') as f:
             f.write(json.dumps(DICO, sort_keys=True, indent=4))
 
-#fonction suprimer un flux rss
+#fonction  suprimer un flux rss
 def remove_feed(key,check):
 
     with open("/root/rss-discord/db.json", "r") as json_file:
@@ -65,31 +65,17 @@ def alter_feed(key,value,change):
         DICO = json.load(json_file)
 
     if key in DICO['URL'] :
-
-        if value.lower() == "url":
-            value = "URL"
-            DICO[value][key] = change
-            modif = True
-        if value.lower() == "webhook":
-            value = "WEBHOOK"
-            DICO[value][key] = change
-            modif = True
-        if value.lower() == "username":
-            value = "USERNAME"
-            DICO[value][key] = change
-            modif = True
-        if value.lower() == "avatar":
-            value = "AVATAR"
-            DICO[value][key] = change
-            modif = True
-
-        if modif :
-            print(json.dumps(DICO, sort_keys=True, indent=4))
-            print("SUCCESS : Le flux a bien été modifié dans le fichier db.json")
-            with open('/root/rss-discord/db.json', 'w') as f:
-                f.write(json.dumps(DICO, sort_keys=True, indent=4))
-        else :
-            print(f"ERROR : La valaur {value} a modifier n'existe pas")
+        if key in DICO['URL'] :
+            value_upper = value.upper()
+            if value_upper in {"URL", "WEBHOOK", "USERNAME", "AVATAR"}:
+                value = value_upper
+                DICO[value][key] = change
+                print(json.dumps(DICO, sort_keys=True, indent=4))
+                print("SUCCESS : Le flux a bien été modifié dans le fichier db.json")
+                with open('/root/rss-discord/db.json', 'w') as f:
+                    f.write(json.dumps(DICO, sort_keys=True, indent=4))
+            else :
+                print(f"ERROR : La valeur {value} à modifier n'existe pas")
 
     else :
         print(f"ERROR : Le nom du flux {key} n'existe pas dans le fichier db.json")
