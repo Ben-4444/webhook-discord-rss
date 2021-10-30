@@ -16,7 +16,7 @@
     
     git clone https://github.com/Karomy404/webhook-discord-rss.git
     mv webhook-discord-rss/ /root/rss-discord
-    mkdir /root/rss-discord/GUID</code>
+    mkdir /root/rss-discord/GUID
     chmod +x /root/rss-discord/*.py
     python3 /root/rss-discord/console.py #<--- permet de gerer les flux / webhooks
     
