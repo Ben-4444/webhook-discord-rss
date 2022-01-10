@@ -32,6 +32,7 @@ def code(URL, WEBHOOK, USERNAME, AVATAR_URL, GUID):
             data["content"] = f"**{entry.title}**\n{entry.link}\n*{entry.updated}*"
             data["username"] = USERNAME
             data["avatar_url"] = AVATAR_URL
+            # Partie qui envoi l'info au webhook (a desactiver pour migration / initialisation ou test)
             requests.post(WEBHOOK, json = data)
             time.sleep(1)
         else :
